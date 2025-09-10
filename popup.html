@@ -435,12 +435,23 @@
         #responsibleFilterActions button {
             margin-right: 0;
         }
+        .header { 
+        display: flex;
+        align-items: center; 
+        justify-content: left; 
+        gap: 10px;
+        text-align: center; 
+        margin-bottom: 1em; 
+    }
     </style>
 </head>
 
 <body>
     <div class="main-container">
-        <h2>Extrator de Cards do Azure</h2>
+            <div class="header">
+                <h2>Extrator de Cards do Azure</h2>
+                <img src="pombinho.png" alt="ícone de pombo" style="width: 32px; height: 32px;">
+            </div>
         <div class="filter-grid">
             <div><label for="nameFilter">Responsável:</label><input type="text" id="nameFilter"
                     placeholder="Filtrar por nome..."></div>
